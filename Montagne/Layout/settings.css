@@ -1,0 +1,14 @@
+body {
+  background: url(./images/bg.jpg) center/cover/fixed;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+}
+
+h4 {
+  text-transform: uppercase;
+}/*# sourceMappingURL=settings.css.map */

@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: "font1" ;
+    src: url(../fonts/NotoSerif-Regular.ttf);
+  }
+  $font1: "font1", sans-serif;
+  $color1: rgb(255, 75, 75);
+  $color2: rgb(255, 197, 6);
+  $color3: rgb(2, 2, 2);
+  
+  //MIXINS
+  @mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body{
+    background: $color2;
+    font-family:  $font1;
+  }
+  
